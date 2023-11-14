@@ -23,7 +23,7 @@ function App() {
       )
     );
   };
-  const toggleAlertVisibility = () => {
+  const alertVisability = () => {
     setShowAlert((prevState) => !prevState);
   };
 
@@ -48,7 +48,7 @@ function App() {
         </Modal>
         <div className="text-center d-flex justify-content-center align-items-center flex-column">
           <button className="btn btn-info mt-3 w-25"
-                  onClick={() => toggleAlertVisibility()}>Show alert
+                  onClick={() => alertVisability()}>Show alert
           </button>
           {showAlert &&(
             <>
