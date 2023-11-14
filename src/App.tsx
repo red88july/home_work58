@@ -66,7 +66,7 @@ function App() {
                 id={alerts[2].id}
                 type="alert-warning"
                 onDismiss={closeAlert}
-                alert={alerts[3].show}>This is a warning alert</Alert>
+                alert={alerts[2].show}>This is a warning alert</Alert>
               <Alert
                 id={alerts[3].id}
                 type="alert-danger"
